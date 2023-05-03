@@ -47,10 +47,12 @@ npm install
 
 3. Set up env variables.
 
+```
 # .env
 MONGO_URL=**********************
 JWT_SECRET=**********************
 PORT=**********************
+```
 
 3. Start server:
 
