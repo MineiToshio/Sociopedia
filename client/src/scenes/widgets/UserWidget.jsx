@@ -26,9 +26,7 @@ const UserWidget = ({ userId, picturePath }) => {
       method: "GET",
       headers: { Authorization: `Bearer ${token}` },
     });
-    console.log(response)
     const data = await response.json();
-    console.log(data)
     setUser(data);
   };
 
